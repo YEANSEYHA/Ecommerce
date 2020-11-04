@@ -136,33 +136,38 @@
     font-size: 20px;
     font-weight: bolder;
 }
-.container-3{
+/* Container-3*/
+.container-3
+{
     display: flex;
-    margin:15px;
-    margin-top: 40px;
-}
-.box-left{
-    border: tomato 2px solid;
-    width:25%;
-}
-.box-right{
-    width: 75%;
-}
-.c3-column1{
-    display: flex;
-}
-.c3-shirt
-{   margin: 15px;
-    width: 33.33%;
-    height: 300px;
-    border: black 2px solid;
     position: relative;
-    padding-top: 25px;
-    padding-right: 5px;
-    padding-left: 5px;
-    padding-bottom: 5px;
 }
-.icon-top{
+.c3-left{
+    width: 25%;
+    border: violet 3px solid;
+}
+.c3-right{
+    width: 75%;
+    border: black 3px solid;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  position: relative;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  position: relative;
+  border: brown 2px solid;
+}
+.banner{
     position: absolute;
     right: 5%;
     top: 5%;
@@ -173,7 +178,7 @@
     border-radius: 20%;
     padding: 5px;
 }
-.text-bottom-left{
+.banner-02{
     position: absolute;
     bottom: 5%;
     left: 5%;
@@ -181,7 +186,7 @@
     font-weight: bolder;
     font-size: 20px;
 }
-.Cart-button{
+.banner-03{
     position: absolute;
     bottom: 5%;
     right: 5%;
