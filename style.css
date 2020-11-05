@@ -52,7 +52,7 @@
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: bolder;
 }
 .center-2{
@@ -76,7 +76,7 @@
     border: black 1px solid;
     border-radius: 10px;
     font-family: 'Open Sans', sans-serif;
-    font-size: 26px;
+    font-size: 22px;
 }
 .container-2{
     display: flex;
@@ -137,56 +137,62 @@
     font-weight: bolder;
 }
 /* Container-3*/
-.container-3
-{
+.container-3{
     display: flex;
-    position: relative;
+    width: 100%;
+    border: blueviolet 2px solid;
 }
 .c3-left{
-    width: 25%;
-    border: violet 3px solid;
+    width:30%;
 }
 .c3-right{
-    width: 75%;
-    border: black 3px solid;
+    width:70%;
+    background-color: #f1f1f1;
 }
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-  position: relative;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  position: relative;
-  border: brown 2px solid;
-}
-.banner{
+.flex-container {
+    display: flex;
+  }
+  
+.T-shirt{
+    background-color: white;
+    width: 33.33%;
+    margin: 10px;
+    text-align: left;
+    font-size: 15px;
+    position: relative;
+    border: 2px black solid;
+    padding: 15px;
+  }
+.c3-poster-discount{
     position: absolute;
+    font-size: 14px;
+    top:4%;
     right: 5%;
-    top: 5%;
-    width: 35px;
     background: rgb(252, 142, 40);
-    margin: 0px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-radius: 20%;
+    width: 16%;
     padding: 5px;
+    text-align: center;
+    border-radius: 20%;
+    
 }
-.banner-02{
+.c3-poster-bottom-1{
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+    font-size: 16px;
+    font-weight: bolder;
+    color:rgba(241, 28, 28, 0.932);
+    text-decoration-line: line-through;
+}
+.c3-poster-bottom-2{
     position: absolute;
     bottom: 5%;
     left: 5%;
-    color: rgba(28, 243, 9, 0.952);
+    color: rgba(41, 211, 26, 0.952);
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 16px;
 }
-.banner-03{
+.c3-button-cart{
     position: absolute;
     bottom: 5%;
     right: 5%;
@@ -194,4 +200,5 @@
     box-shadow: 2px 3px;
     width: 30%;
     padding: 1px;
+
 }
