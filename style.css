@@ -15,7 +15,7 @@
     font-family: 'Roboto', sans-serif;
 }
 #c1-text02{
-    color:rgba(21, 160, 3, 0.993);
+    color:rgba(5, 206, 21, 0.993);
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
@@ -45,39 +45,42 @@
     border: black 1px solid;
     border: 3px solid;
     box-shadow: 2px 3px;
+    width:30px;
 }
 .center-1{
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 34px;
-    font-weight: bolder;
+    font-size: 45px;
+    font-family: 'Andika', sans-serif;
+    font-weight: 600;
+    
+    
 }
 .center-2{
     position: absolute;
     top: 52%;
     left: 50%;
     transform: translate(-50%,-50%);
-    font-size: 16px;;
+    font-size: 16px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Andika', sans-serif;
     color: rgba(128, 128, 128, 0.623);
 }
 .center-3{
     position: absolute;
-    top: 65%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%,-50%);
     border-radius: 100%;
     width: 50%;
-    border: green 1px solid;
+    
   }
 #c1-search-box{
     border: black 1px solid;
     border-radius: 25px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Andika', sans-serif;
     font-size: 22px;
 }
 .container-2{
@@ -97,8 +100,8 @@
     position: relative;
     padding: 10px;
     margin: 20px;
-    height: 180px;
     color: white;
+    height: 150px;
 }
 .box-2{
     display: flex;
@@ -109,6 +112,7 @@
     padding: 10px;
     margin: 20px;
     color: white;
+    height: 150px;
     
 }
 .box-3{
@@ -120,6 +124,7 @@
     padding: 10px;
     margin: 20px;
     color: white;
+    height: 150px;
 }
 .column-A{
     width: 65%;
@@ -135,18 +140,20 @@
     border: black 1px solid;
     border: 2px solid;
     box-shadow: 2px 3px;
+    width: 100px;
 }
 #c2-article{
     color: white;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: bolder;
+    padding-bottom: 0px;
 }
 /* Container-3*/
 .container-3{
     display: flex;
     width: 100%;
-    border: blueviolet 2px solid;
+    margin-top: 50px;
 }
 .c3-left{
     width:30%;
@@ -155,27 +162,27 @@
     flex-direction: column;
 }
 .c3-button{
-    border: 2px black solid;
     margin-bottom: 10px;
+    margin-top: 15px;
     font-size: 20px;
-    font-weight: bolder;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Andika', sans-serif;
+    font-weight: bold;
+    margin-left: 20px;
 }
 #c3-text{
     align-items: center;
     text-align: center;
 }
-
-
 .c3-right{
     width:70%;
     background-color: #f1f1f1;
+    padding: 20px;
+    padding-bottom: 100px;
 }
 .flex-container {
     display: flex;
     margin-bottom: 20px;
-  }
-  
+}
 .T-shirt{
     background-color: white;
     width: 33.33%;
@@ -183,7 +190,7 @@
     text-align: left;
     font-size: 15px;
     position: relative;
-    border: 2px black solid;
+    border: 3px black solid;
     padding: 15px;
   }
 .c3-poster-discount{
@@ -227,13 +234,8 @@
 }
 
 a:link, a:visited {
-    background-color: whitesmoke;
     margin: 0;
     text-decoration: black;
     color: black;
     display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: green;
   }
