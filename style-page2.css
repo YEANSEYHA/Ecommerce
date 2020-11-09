@@ -278,7 +278,26 @@
 fieldset{
     margin-top: 10px;
     background-color: white;
+    position: relative;
 }
 #area{
     border: none;
+    width: 100%;
+}
+.send{
+    color: white;
+    background-color: rgb(57, 196, 57);
+    position: absolute;
+    width: 10%;
+    right: 15%;
+}
+.discard{
+    color: black;
+    background-color:white;
+    position: absolute;
+    width: 10%;
+    right: 4%;
+}
+legend{
+    font-weight: bold;
 }
