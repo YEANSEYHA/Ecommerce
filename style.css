@@ -19,7 +19,6 @@
     font-size: 30px;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-
 }
 .top-right1{
     position: absolute;
@@ -55,8 +54,6 @@
     font-size: 45px;
     font-family: 'Andika', sans-serif;
     font-weight: 600;
-    
-    
 }
 .center-2{
     position: absolute;
@@ -113,7 +110,6 @@
     margin: 20px;
     color: white;
     height: 150px;
-    
 }
 .box-3{
     display: flex;
@@ -126,12 +122,12 @@
     color: white;
     height: 150px;
 }
-.column-A{
+.c2-column-left{
     width: 65%;
     position: absolute;
     
 }
-.column-B{
+.c2-column-right{
     top: 25%;
     position: absolute;
     left: 70%;
@@ -155,7 +151,7 @@
     width: 100%;
     margin-top: 50px;
 }
-.c3-left{
+.c3-column-left{
     width:30%;
     display: flex;
     padding: 10px;
@@ -173,7 +169,7 @@
     align-items: center;
     text-align: center;
 }
-.c3-right{
+.c3-column-riht{
     width:70%;
     background-color: #f1f1f1;
     padding: 20px;
